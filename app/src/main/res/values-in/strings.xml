@@ -166,7 +166,7 @@
     <string name="three_digit_milliseconds_help">Meyimpan dengan milidetik tiga angka mungkin akan berguna bagi aplikasi yang menganggap berkas LRC dengan cap waktu milidetik tiga angka daripada cap waktu dengan milidetik dua angka saja</string>
     <string name="failed_to_open_directory_picker_message">Tak dapat membuka pemilih direktori!</string>
     <string name="documentsui_enable_message">Apakah Anda sedang menjalankan Android 5.0+? Coba aktifkan DocumentsUI dari setelan ponsel Anda</string>
-    <string name="github_contribution">Beri kontribusi pada aplikasi:\nhttps://github.com/Spikatrix/LRC-Editor/tree/f-droid</string>
+    <string name="github_contribution">Beri kontribusi pada aplikasi:\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
 
     <string name="file_not_found_message">Berkas tidak ditemukan!</string>
     <string name="failed_to_open_input_stream_message">Gagal membuka input stream ke berkas untuk membaca data!</string>
