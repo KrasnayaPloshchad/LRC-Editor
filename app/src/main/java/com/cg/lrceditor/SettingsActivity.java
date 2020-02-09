@@ -118,7 +118,7 @@ public class SettingsActivity extends AppCompatActivity {
         location = preferences.getString("readLocation", Constants.defaultLocation);
         readLocation.setText(location);
 
-        if (preferences.getString("lrceditor_purchased", "").equals("Y")) {
+        if (false) {
             TextView themeTitle = findViewById(R.id.theme_title);
             themeGroup = findViewById(R.id.theme_group);
 

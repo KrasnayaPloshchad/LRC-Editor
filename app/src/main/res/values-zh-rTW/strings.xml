@@ -149,7 +149,7 @@
 
     <string name="made_with_love_and_code_text">\n用 ♥ 創造\n(還有大量的程式碼 :p)\n</string>
     <string name="rate_and_feedback_text">這個App由我自已開發及維護的\n請為這個App評分及留下有用的評論\n\n\n非常感謝！\n♥</string>
-    <string name="rate_and_review_text">為App評分及評論</string>
+    <string name="view_the_app_on_f_droid">在F-Droid上查看应用</string>
     <string name="send_feedback">傳送意見回饋</string>
     <string name="support_me">支持我</string>
     <string name="feedback_body_prompt">在此輸入您的意見/錯誤報告</string>
@@ -166,22 +166,7 @@
     <string name="three_digit_milliseconds_help">以三位數毫秒儲存功能，對於需要三位數毫秒而並非二位數毫秒的LRC文件的應用程序或會有用</string>
     <string name="failed_to_open_directory_picker_message">無法開啟系統資料夾對話方塊！</string>
     <string name="documentsui_enable_message">您的Android系統當前是否運行5.0或以上版本？或許可以從您的手機設定啟用DocumentsUI</string>
-
-    <string name="support_description">您可以支付所需的費用來支持我。您的支持可以協助我比以前更強大，更好地成長</string>
-    <string name="support_bonus_description">當您購買之後，便會得到兩個暗黑主題作為獎勵。</string>
-    <string name="thanks_for_the_support">感謝您的支持！\n♥</string>
-    <string name="loading">請稍候</string>
-    <string name="error">錯誤</string>
-    <string name="failed_to_query_inventory_message">無法查詢庫存</string>
-    <string name="dark_themes_available_message">設定內的兩個暗黑主題現在應該可用了</string>
-    <string name="failed_to_complete_purchase_message">無法完成購買</string>
-    <string name="purchase_successful">購買成功</string>
-    <string name="thank_you_for_the_purchase_message">非常感謝您購買！設定內的兩個暗黑主題現在可以使用了</string>
-    <string name="failed_to_query_purchase_message">無法查詢購買狀態</string>
-    <string name="iap_setup_failed_message">應用程式內購買(In-app Billing)設定失敗</string>
-    <string name="iaps_loading_message">應用程式內購服務(IAPs)仍在載入</string>
-    <string name="purchased">已購買</string>
-    <string name="github_contribution">對App作出貢獻：\nhttps://github.com/Spikatrix/LRC-Editor</string>
+    <string name="github_contribution">對App作出貢獻：\nhttps://github.com/Spikatrix/LRC-Editor/tree/f-droid</string>
 
     <string name="file_not_found_message">找不到檔案！</string>
     <string name="failed_to_open_input_stream_message">無法開啟用於讀取數據的文件輸入流！</string>

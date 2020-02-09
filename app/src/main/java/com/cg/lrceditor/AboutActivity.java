@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -36,7 +37,7 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
 
         if (isDarkTheme) {
-            Button b = findViewById(R.id.rate_and_review_button);
+            Button b = findViewById(R.id.view_app_button);
             b.setCompoundDrawablesRelativeWithIntrinsicBounds(null, null, getDrawable(R.drawable.ic_open_in_new_light), null);
 
             b = findViewById(R.id.send_feedback_button);
@@ -63,19 +64,11 @@ public class AboutActivity extends AppCompatActivity {
         }
     }
 
-    public void rateAndReview(View view) {
-        Uri uri = Uri.parse("market://details?id=" + this.getPackageName());
-        Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
-        // To count with Play market backstack, After pressing back button,
-        // to taken back to our application, we need to add following flags to intent.
-        goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
-                Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
-                Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+    public void viewApp(View view) {
         try {
-            startActivity(goToMarket);
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://f-droid.org/en/packages/com.cg.lrceditor")));
         } catch (ActivityNotFoundException e) {
-            startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("http://play.google.com/store/apps/details?id=" + this.getPackageName())));
+            Toast.makeText(this, "An error occurred: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -85,17 +78,18 @@ public class AboutActivity extends AppCompatActivity {
         deviceInfo += "\n OS API Level: " + Build.VERSION.SDK_INT;
         deviceInfo += "\n Device: " + Build.DEVICE;
         deviceInfo += "\n Model and Product: " + Build.MODEL + " (" + Build.PRODUCT + ")";
-        deviceInfo += "\n LRC Editor version " + BuildConfig.VERSION_NAME + " (Build: " + BuildConfig.VERSION_CODE + ")";
+        deviceInfo += "\n LRC Editor version " + BuildConfig.VERSION_NAME + " (Build (F-Droid): " + BuildConfig.VERSION_CODE + ")";
 
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", getString(R.string.dev_email), null));
-        intent.putExtra(Intent.EXTRA_SUBJECT, "LRC Editor Feedback");
-        intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.feedback_body_prompt) + deviceInfo);
-        startActivity(Intent.createChooser(intent, getString(R.string.send_feedback) + ":"));
-    }
+        Intent selectorIntent = new Intent(Intent.ACTION_SENDTO);
+        selectorIntent.setData(Uri.parse("mailto:"));
 
-    public void startSupportActivity(View view) {
-        Intent intent = new Intent(this, SupportActivity.class);
-        startActivity(intent);
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{getString(R.string.dev_email)});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "LRC Editor Feedback");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.feedback_body_prompt) + "\n" + deviceInfo);
+        emailIntent.setSelector(selectorIntent);
+
+        startActivity(Intent.createChooser(emailIntent, getString(R.string.send_feedback)));
     }
 
     @Override

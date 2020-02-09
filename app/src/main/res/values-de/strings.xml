@@ -150,7 +150,7 @@
 
     <string name="made_with_love_and_code_text">\nGemacht mit ♥\n(und ganz viel Code :p)\n</string> <!-- Newlines for better spacing on small screens -->
     <string name="rate_and_feedback_text">Ich alleine habe diese App gemacht und pflege sie.\nBewerte doch die App und lass hilfreiches Feedback da!\n\n\nDanke!\n♥</string>
-    <string name="rate_and_review_text">App bewerten</string>
+    <string name="view_the_app_on_f_droid">Sehen Sie sich die App auf F-Droid an</string>
     <string name="send_feedback">Feedback senden</string>
     <string name="support_me">Unterstütze mich</string>
     <string name="feedback_body_prompt">Gib dein Feedback/deinen Fehlerbericht hier ein</string>
@@ -167,22 +167,7 @@
     <string name="three_digit_milliseconds_help">Das Speichern mit dreistelligen Millisekunden kann für Anwendungen nützlich sein, die LRC-Dateien mit dreistelligen Millisekunden-Zeitstempeln anstelle von zweistelligen Millisekunden-Zeitstempeln erwarten</string>
     <string name="failed_to_open_directory_picker_message">Konnte die Verzeichnisauswahl nicht öffnen!</string>
     <string name="documentsui_enable_message">Verwendest du Android 5.0+? Versuche \"DocumentsUI\" in den Systemeinstellungen zu aktivieren</string>
-
-    <string name="support_description">Du kannst bezahlen soviel du willst, um mich zu unterstützen. Deine Unterstützung hilft mir größer und besser zu werden als je zuvor!</string>
-    <string name="support_bonus_description">Als kleinen Bonus kriegst du, wenn du mich unterstützt, die beiden dunklen Themen der App!</string>
-    <string name="thanks_for_the_support">Danke für deine Unterstützung!\n♥</string>
-    <string name="loading">Lädt</string>
-    <string name="error">Fehler</string>
-    <string name="failed_to_query_inventory_message">Inventar konnte nicht abgefragt werden</string>
-    <string name="dark_themes_available_message">Die beiden dunklen Themen sollten nun in den Einstellungen verfügbar sein!</string>
-    <string name="failed_to_complete_purchase_message">Der Kauf konnte nicht abgeschlossen werden</string>
-    <string name="purchase_successful">Kauf erfolgreich</string>
-    <string name="thank_you_for_the_purchase_message">Ich danke dir so sehr für deinen Kauf! Die beiden dunklen Themen sind jetzt in den Einstellungen verfügbar!</string>
-    <string name="failed_to_query_purchase_message">Der Kauf konnte nicht abgefragt werden</string>
-    <string name="iap_setup_failed_message">Konnte die In-App-Abrechnung nicht einrichten</string>
-    <string name="iaps_loading_message">IAPs laden noch</string>
-    <string name="purchased">Bezahlt</string>
-    <string name="github_contribution">Zur App beitragen:\nhttps://github.com/Spikatrix/LRC-Editor</string>
+    <string name="github_contribution">Zur App beitragen:\nhttps://github.com/Spikatrix/LRC-Editor/tree/f-droid</string>
 
     <string name="file_not_found_message">Datei nicht gefunden!</string>
     <string name="failed_to_open_input_stream_message">Fehler beim Öffnen eines Eingabestreams, um Daten aus der Datei zu lesen!</string>

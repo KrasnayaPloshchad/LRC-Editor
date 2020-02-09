@@ -69,14 +69,13 @@
                 android:text="@string/rate_and_feedback_text" />
 
             <Button
-                android:id="@+id/rate_and_review_button"
+                android:id="@+id/view_app_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight=".05"
                 android:drawableEnd="@drawable/ic_open_in_new"
-                android:onClick="rateAndReview"
-                android:text="@string/rate_and_review_text" />
+                android:onClick="viewApp"
+                android:text="@string/view_the_app_on_f_droid" />
 
             <Button
                 android:id="@+id/send_feedback_button"
@@ -87,12 +86,13 @@
                 android:onClick="sendFeedback"
                 android:text="@string/send_feedback" />
 
-            <Button
-                android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:onClick="startSupportActivity"
-                android:text="@string/support_me" />
+                android:layout_marginTop="@dimen/dp15"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/github_contribution" />
 
         </LinearLayout>
 
