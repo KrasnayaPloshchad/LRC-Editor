@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- There might be lint suggestions to use ellipses rather than three dots that I've used in several of the strings here -->
-    <!-- But ellipses look weird for me (Bad kerning :p) which is why I keep using three dots -->
+	<!-- There might be lint suggestions to use ellipses rather than three dots that I've used in several of the strings here -->
+	<!-- But ellipses look weird for me (Bad kerning :p) which is why I keep using three dots -->
 
     <string name="add_timestamp_description">Dodaj przycisk znacznika czasu</string>
     <string name="adjust">Dostosuj</string>
@@ -17,8 +17,7 @@
     <string name="cancel">Anuluj</string>
     <string name="cannot_save_without_permission_message">Nie można zapisać pliku bez pozwolenia na przechowywanie</string>
     <string name="change">Przeglądaj</string>
-    <string name="change_location_text">Zmień tę lokalizację</string>
-    <string name="composer_name_hint">Nazwa kompozytora tutaj</string>
+	<string name="composer_name_hint">Nazwa kompozytora tutaj</string>
     <string name="composer_prompt">Kompozytor:</string>
     <string name="confirmation">Potwierdzenie</string>
     <string name="copied_lyrics_message">Skopiowałem tekst do wewnętrznego schowka</string>
@@ -27,6 +26,7 @@
     <string name="copy_lrc_contents">Skopiuj zawartość LRC ⎘</string>
     <string name="copy_lrc_file_data_successful_message">Pomyślnie skopiowano dane pliku LRC do schowka systemowego!</string>
     <string name="could_not_parse_any_lyrics_message">Nie można przeanalizować tekstu z pliku. Sprawdź, czy plik lrc jest poprawnie sformatowany</string>
+	<string name="create">Stwórz</string>
     <string name="dark">Ciemny</string>
     <string name="darker">Ciemniejszy</string>
     <string name="decrease_timestamp_description">Przycisk znacznika zmniejszania czasu</string>
@@ -41,6 +41,7 @@
     <string name="documentsui_enable_message">Czy używasz Androida 5.0+? Może włączyć DocumentsUI w ustawieniach telefonu</string>
     <string name="done">Gotowe</string>
     <string name="edit">Edycja</string>
+	<string name="editor">Redaktor</string>
     <string name="enter_timestamp_prompt">Wpisz znacznik czasu</string>
     <string name="error_occurred_when_reading_message">Wystąpił błąd podczas czytania!</string>
     <string name="expandable_button_description">Rozwijany obraz przycisku</string>
@@ -103,7 +104,8 @@
     <string name="processing">Przetwarzanie</string>
     <string name="rate_and_feedback_text">Ta aplikacja jest tworzona i obsługiwana przeze mnie\nOceń aplikację i przekaż konstruktywną opinię\n\n\nDziękuję Ci!\n♥</string>
     <string name="view_the_app_on_f_droid">Wyświetl aplikację na F-Droid</string>
-    <string name="read_location_description">Miejsce odczytu plików tekstowych (skanowane będą również podkatalogi):</string>
+	<string name="read_location_description">Miejsce odczytu plików tekstowych</string>
+	<string name="read_location_extra_description">Skanowane będą również podkatalogi</string>
     <string name="read_location_invalid_message">Lokalizacja odczytu nie istnieje. Próbowałem utworzyć folder na %1$s, ale nie powiodło się. Czy chcesz zresetować lokalizację odczytu do domyślnej?</string>
     <string name="read_location_non_existent_message">"Lokalizacja odczytu nie istnieje. Nie udało się również utworzyć folderu 'Lyrics'. Spróbuj zmienić lokalizację odczytu"</string>
     <string name="rename">Zmień nazwę</string>
@@ -130,11 +132,10 @@
     <string name="stay_here">Zostań tutaj</string>
     <string name="storage_permission_prompt">Ta aplikacja wymaga pozwolenia na przechowywanie, odczyt i zapis plików tekstowych</string>
     <string name="storage_unavailable_message">Błąd: pamięć niedostępna/zajęta</string>
-    <string name="support_me">Wesprzyj mnie</string>
-    <string name="tap_to_select_song_prompt">Stuknij tutaj, aby wybrać utwór</string>
+	<string name="tap_to_select_song_prompt">Stuknij tutaj, aby wybrać utwór</string>
     <string name="thats_a_miss">"Tego brakuje\nNie znaleziono plików Lyric"</string>
     <string name="title_error_text">Wystąpił nieoczekiwany błąd podczas próby ustawienia tytułu</string>
-    <string name="toolbar_about_title">O programie</string>
+	<string name="about">O programie</string>
     <string name="toolbar_add_a_lyric_title">Dodaj tekst</string>
     <string name="toolbar_batch_edit_lyrics_title">Edycja wsadowa tekstów</string>
     <string name="toolbar_collapse_or_expand_player_title">Rozwiń lub zwiń odtwarzacz</string>
@@ -154,7 +155,7 @@
     <string name="toolbar_rename_lyric_file_title">Zmień nazwę pliku lyric</string>
     <string name="toolbar_search_title">Wyszukaj na liście</string>
     <string name="toolbar_select_all_title">Zaznacz Wszystko</string>
-    <string name="toolbar_settings_title">Ustawienia</string>
+	<string name="settings">Ustawienia</string>
     <string name="ui_reference_failed_message">Nie można uzyskać odwołań do elementu interfejsu. Spróbuj odświeżyć listę</string>
     <string name="unexpected_error_message">Wystąpił nieoczekiwany błąd</string>
     <string name="warning">Ostrzeżenie</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- There might be lint suggestions to use ellipses rather than three dots that I've used in several of the strings here -->
-    <!-- But ellipses look weird for me (Bad kerning :p) which is why I keep using three dots -->
+	<!-- There might be lint suggestions to use ellipses rather than three dots that I've used in several of the strings here -->
+	<!-- But ellipses look weird for me (Bad kerning :p) which is why I keep using three dots -->
 
     <string name="add_timestamp_description">Adicionar um valor de tempo</string>
     <string name="adjust">Ajustar</string>
@@ -17,8 +17,7 @@
     <string name="cancel">Cancelar</string>
     <string name="cannot_save_without_permission_message">Não é possível salvar o arquivo sem a permissão de armazenamento</string>
     <string name="change">Mudar</string>
-    <string name="change_location_text">Mudar localização</string>
-    <string name="composer_name_hint">Nome do compositor aqui</string>
+	<string name="composer_name_hint">Nome do compositor aqui</string>
     <string name="composer_prompt">Compositor:</string>
     <string name="confirmation">Confirmação</string>
     <string name="copied_lyrics_message">Letras copiadas para a área de transferência interna</string>
@@ -27,6 +26,7 @@
     <string name="copy_lrc_contents">Copiar conteúdo LRC ⎘</string>
     <string name="copy_lrc_file_data_successful_message">Copiado com sucesso os dados do arquivo LRC para a área de transferência do sistema!</string>
     <string name="could_not_parse_any_lyrics_message">Não foi possível analisar as letras do arquivo.  Verifique se o arquivo lrc está formatado corretamente</string>
+	<string name="create">Crio</string>
     <string name="dark">Escuro</string>
     <string name="darker">Mais escuro</string>
     <string name="decrease_timestamp_description">Diminuir o botão de tempo</string>
@@ -41,6 +41,7 @@
     <string name="documentsui_enable_message">Você está executando o Android 5.0 ou superior? Ative o DocumentsUI das configurações do seu telefone</string>
     <string name="done">Feito</string>
     <string name="edit">Editar</string>
+	<string name="editor">Editor</string>
     <string name="enter_timestamp_prompt">Digitar tempo</string>
     <string name="error_occurred_when_reading_message">Ocorreu um erro durante a leitura!</string>
     <string name="expandable_button_description">Imagem do botão expansível</string>
@@ -103,7 +104,8 @@
     <string name="processing">Procesando</string>
     <string name="rate_and_feedback_text">Este aplicativo é feito e mantido apenas por mim\nPor favor, classifique o aplicativo e forneça um feedback construtivo\n\n\n Obrigado!\n ♥</string>
     <string name="view_the_app_on_f_droid">Ver a aplicação no F-Droid</string>
-    <string name="read_location_description">Localização para ler arquivos de letras (as subpastas também serão verificadas):</string>
+	<string name="read_location_description">Localização para ler arquivos de letras</string>
+	<string name="read_location_extra_description">As subpastas também serão verificadas</string>
     <string name="read_location_invalid_message">A localização de leitura não existe.  Tentei criar uma pasta em %1$s, mas falhou. Você deseja redefinir o local de leitura para o local padrão?</string>
     <string name="read_location_non_existent_message">A localização de leitura não existe.  Falha ao criar uma pasta \'Lyrics\' também. Tente alterar o local de leitura</string>
     <string name="rename">Renomear</string>
@@ -130,11 +132,10 @@
     <string name="stay_here">Fique aqui</string>
     <string name="storage_permission_prompt">Este aplicativo precisa da permissão de armazenamento para ler e salvar os arquivos de letras</string>
     <string name="storage_unavailable_message">Erro: Armazenamento indisponível ou cheio</string>
-    <string name="support_me">Ajudar no desenvolvimento</string>
-    <string name="tap_to_select_song_prompt">Toque aqui para selecionar uma música</string>
+	<string name="tap_to_select_song_prompt">Toque aqui para selecionar uma música</string>
     <string name="thats_a_miss">Falta algo aqui...\nNenhum arquivo de letra encontrado</string>
     <string name="title_error_text">Ocorreu um erro inesperado ao tentar definir o título</string>
-    <string name="toolbar_about_title">Sobre</string>
+	<string name="about">Sobre</string>
     <string name="toolbar_add_a_lyric_title">Adicionar uma letra</string>
     <string name="toolbar_batch_edit_lyrics_title">Editar letras em lote</string>
     <string name="toolbar_collapse_or_expand_player_title">Expandir ou recolher o player</string>
@@ -154,7 +155,7 @@
     <string name="toolbar_rename_lyric_file_title">Renomear arquivos de letras</string>
     <string name="toolbar_search_title">Buscar lista</string>
     <string name="toolbar_select_all_title">Selecionar tudo</string>
-    <string name="toolbar_settings_title">Configurações</string>
+	<string name="settings">Configurações</string>
     <string name="ui_reference_failed_message">Falha ao obter referências de elementos da interface do usuário.  Tente atualizar a lista</string>
     <string name="unexpected_error_message">Um erro inesperado ocorreu</string>
     <string name="warning">Aviso</string>
