@@ -168,6 +168,7 @@
     <string name="failed_to_open_directory_picker_message">無法開啟系統資料夾對話方塊！</string>
     <string name="documentsui_enable_message">您的Android系統當前是否運行5.0或以上版本？或許可以從您的手機設定啟用DocumentsUI</string>
     <string name="github_contribution">對App作出貢獻：\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
+	<string name="generic_path_error">無法獲得正確的路徑； 嘗試選擇其他位置</string>
 
 	<string name="file_not_found_message">找不到檔案！</string>
 	<string name="failed_to_open_input_stream_message">無法開啟用於讀取數據的文件輸入流！</string>

@@ -169,6 +169,7 @@
     <string name="failed_to_open_directory_picker_message">Konnte die Verzeichnisauswahl nicht öffnen!</string>
     <string name="documentsui_enable_message">Verwendest du Android 5.0+? Versuche \"DocumentsUI\" in den Systemeinstellungen zu aktivieren</string>
     <string name="github_contribution">Zur App beitragen:\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
+	<string name="generic_path_error">Fehler beim Erhalten des richtigen Pfades; Versuchen Sie, einen anderen Ort auszuwählen</string>
 
 	<string name="file_not_found_message">Datei nicht gefunden!</string>
 	<string name="failed_to_open_input_stream_message">Fehler beim Öffnen eines Eingabestreams, um Daten aus der Datei zu lesen!</string>

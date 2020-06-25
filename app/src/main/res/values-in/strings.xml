@@ -168,6 +168,7 @@
     <string name="failed_to_open_directory_picker_message">Tak dapat membuka pemilih direktori!</string>
     <string name="documentsui_enable_message">Apakah Anda sedang menjalankan Android 5.0+? Coba aktifkan DocumentsUI dari setelan ponsel Anda</string>
     <string name="github_contribution">Beri kontribusi pada aplikasi:\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
+	<string name="generic_path_error">Gagal mendapatkan jalur yang benar; Pilih lokasi yang berbeda</string>
 
 	<string name="file_not_found_message">Berkas tidak ditemukan!</string>
 	<string name="failed_to_open_input_stream_message">Gagal membuka input stream ke berkas untuk membaca data!</string>
