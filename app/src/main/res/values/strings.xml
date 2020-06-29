@@ -163,17 +163,19 @@
 	<string name="read_location_description">Location for reading lyric files</string>
 	<string name="read_location_extra_description">Sub directories will also be scanned</string>
     <string name="select_a_theme_prompt">Select a theme:</string>
-    <string name="light">Light</string>
-    <string name="dark">Dark</string>
-    <string name="darker">Darker</string>
-    <string name="unexpected_error_message">An unexpected error occurred</string>
-    <string name="restart_for_theme_message">Restart the app if the theme does not apply</string>
-    <string name="three_digit_milliseconds_prompt">Save with three digit milliseconds</string>
-    <string name="three_digit_milliseconds_help">Saving with three digit milliseconds might be useful for applications that expect LRC files with three digit millisecond timestamps rather than two digit millisecond timestamps</string>
-    <string name="failed_to_open_directory_picker_message">Couldn\'t open the directory picker!</string>
-    <string name="documentsui_enable_message">Are you running Android 5.0+? Maybe enable DocumentsUI from your phone settings</string>
-    <string name="github_contribution">Contribute to the app:\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
-	<string name="generic_path_error">Failed to get the proper path; try selecting a different location</string>
+	<string name="light">Light</string>
+	<string name="dark">Dark</string>
+	<string name="darker">Darker</string>
+	<string name="unexpected_error_message">An unexpected error occurred</string>
+	<string name="restart_for_theme_message">Restart the app if the theme does not apply</string>
+	<string name="three_digit_milliseconds_prompt">Save with three digit milliseconds</string>
+	<string name="three_digit_milliseconds_help">Saving with three digit milliseconds might be useful for applications that expect LRC files with three digit millisecond timestamps rather than two digit millisecond timestamps</string>
+	<string name="failed_to_open_directory_picker_message">Couldn\'t open the directory picker!</string>
+	<string name="documentsui_enable_message">Are you running Android 5.0+? Maybe enable DocumentsUI from your phone settings</string>
+	<string name="github_contribution">Contribute to the app:\nhttps://github.com/Spikatrix/LRC-Editor/tree/fdroid</string>
+	<string name="generic_read_path_error">Failed to parse the path location. Reading might have issues</string>
+	<string name="generic_save_path_error">Failed to parse the path location. Saving might have issues</string>
+	2
 
 	<string name="file_not_found_message">File not found!</string>
 	<string name="failed_to_open_input_stream_message">Failed to open an input stream to the file to read data!</string>
