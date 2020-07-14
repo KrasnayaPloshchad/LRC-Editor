@@ -1,5 +1,11 @@
 # LRC Editor &nbsp; [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![Version: 3.2.3](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=3.2.3)
 
+<hr>
+
+**NOTE: This branch is deprecated in favour of Gradle build flavors as implemented in the master branch. As such, this branch may be deleted soon!**
+
+<hr>
+
 <img src="https://i.stack.imgur.com/KSovE.png" alt="LRC Editor App Icon" align="left" style="margin: 10px 20px 10px 10px; border-radius: 15%; box-shadow: 0 6px 20px 2px black">
 
 LRC Editor is an Android app that helps you to create and edit .lrc files easily
